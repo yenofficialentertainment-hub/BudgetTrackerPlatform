@@ -8,8 +8,6 @@ import {
   sendEmailVerification, // Import this for verification
 } from 'firebase/auth';
 
-import { db } from './firebase';
-
 const auth = getAuth();
 const googleProvider = new GoogleAuthProvider();
 
@@ -226,3 +224,4 @@ export default function Auth() {
     </div>
   );
 }
+
